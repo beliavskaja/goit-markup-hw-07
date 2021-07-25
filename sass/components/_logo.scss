@@ -1,0 +1,12 @@
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  @include font($fs: 26px, $lh: 1.19);
+  color: #000;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
+}
+.part-logo {
+  color: var(--accent-color);
+}

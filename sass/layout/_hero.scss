@@ -1,0 +1,27 @@
+.hero {
+  background-color: #2f303a;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/hero/hero.jpg");
+  background-size: cover;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.hero-section {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.hero-title {
+  max-width: 696px;
+  margin: 0 auto 30px auto;
+  font-family: var(--main-font);
+  font-style: normal;
+  @include font($fw: 900, $fs: 44px, $lh: 1.36, $ls: 0.06em);
+  text-transform: uppercase;
+  color: #ffffff;
+}

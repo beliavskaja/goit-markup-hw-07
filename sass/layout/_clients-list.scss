@@ -1,0 +1,17 @@
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cleints-section-title {
+  color: var(--main-text-color);
+  @include font($fs: 36px, $lh: 1.17);
+  text-align: center;
+  margin-bottom: 50px;
+}

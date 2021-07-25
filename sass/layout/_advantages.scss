@@ -1,0 +1,38 @@
+.advantage-name {
+  @include font();
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.advantage-description {
+  @include font($fw: 400, $lh: 1.71);
+  color: #757575;
+}
+
+.advantage-list {
+  display: flex;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.advantage-list-item {
+  flex-basis: calc((100% - 120px) / 4);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.advantage {
+  padding-bottom: 0;
+}
+
+.advantage-icon-section {
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  padding: 23px 96px;
+  margin-bottom: 30px;
+}
+
+.advantage-icon {
+  width: 70px;
+  height: 70px;
+}
